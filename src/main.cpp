@@ -15,43 +15,31 @@ struct layer : ogl::layer {
             glEnable(GL_DEPTH_TEST);
             glEnable(GL_BLEND);
             glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-
-            m_shader = ogl::shader::from_glsl_file(
-                "res/shaders/vert.glsl",
-                "res/shaders/frag.glsl"
-            );
-
-           
-
-            glCreateVertexArrays(1, &m_vao);
-            glBindVertexArray(m_vao);
-
+            
             float vertices[] = {
                 -1.0f, -1.0f, 0.0f,
                  1.0f, -1.0f, 0.0f,
                  1.0f,  1.0f, 0.0f,
                 -1.0f,  1.0f, 0.0f
             };
-
-            glCreateBuffers(1, &m_vbo);
-            glBindBuffer(GL_ARRAY_BUFFER, m_vbo);
-            glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
-            glEnableVertexAttribArray(0);
-            glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 3, 0);
-
             uint32_t indices[] = { 0, 1, 2, 2, 3, 0 };
-            glCreateBuffers(1, &m_ibo);
-            glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_ibo);
-            glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+
+            m_vbo.set_data(vertices, sizeof(vertices));
+
+            m_layout.push<float>(3);
+            m_vao.add_buffer(m_vbo, m_layout);
+
+            m_ibo.set_data(indices, sizeof(indices)/sizeof(uint32_t));
+
+            m_shader = ogl::shader::from_glsl_file(
+                "res/shaders/vert.glsl",
+                "res/shaders/frag.glsl"
+            );
+
         }
 
         void on_detach() override {
             LOG_INFO("Layer::Detach");
-        
-            glDeleteVertexArrays(1, &m_vao);
-            glDeleteBuffers(1, &m_vbo);
-            glDeleteBuffers(1, &m_ibo);
         }
 
         void on_update(const float& delta_time) override {
@@ -72,8 +60,10 @@ struct layer : ogl::layer {
             int mouse_location = glGetUniformLocation(m_shader->id(), "u_mouse");
             glUniform2f(mouse_location, m_mouse.x, m_mouse.y);
 
-            glBindVertexArray(m_vao);
-            glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);     
+            m_vao.bind();
+            m_ibo.bind();
+
+            glDrawElements(GL_TRIANGLES, m_ibo.count(), GL_UNSIGNED_INT, nullptr);     
        
         }
 
@@ -100,7 +90,12 @@ struct layer : ogl::layer {
         }
     
     private:
-        unsigned int m_vao, m_vbo, m_ibo;
+        // unsigned int m_vao, m_vbo, m_ibo;
+        ogl::vertex_array m_vao;
+        ogl::vertex_buffer m_vbo;
+        ogl::vertex_buffer_layout m_layout;
+        ogl::index_buffer m_ibo;
+
         ogl::shader* m_shader;
         ogl::vec2u m_resolution;
         ogl::vec2f m_mouse = {0.0f, 0.0f};

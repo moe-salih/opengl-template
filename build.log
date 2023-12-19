@@ -34,3 +34,79 @@ LINK : warning LNK4044: unrecognized option '/link'; ignored
  ------------- BUILD FINISHED ------------  
 [INFO : 12:57:25.97] : Build succeeded. Exit code: 0 
  -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 13:55:47.25] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 13:55:47.26] : Cleaning target directory... 
+[INFO : 13:55:47.28] : Cleaning intermediates directory... 
+[INFO : 13:55:47.31] : Compiling : cl /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\chrono(2326): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\utils\index_buffer.hpp(5): fatal error C1083: Cannot open include file: 'vertex_buffer.hpp': No such file or directory
+----------------------------------------- 
+[INFO : 13:55:50.57] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[ERROR : 13:55:50.60] : Build failed. Exit code: 2 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 13:56:33.30] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 13:56:33.32] : Cleaning target directory... 
+[INFO : 13:56:33.34] : Cleaning intermediates directory... 
+[INFO : 13:56:33.35] : Compiling : cl /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\chrono(2326): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\utils\vertex_buffer_layout.hpp(8): fatal error C1083: Cannot open include file: 'shader.hpp': No such file or directory
+----------------------------------------- 
+[INFO : 13:56:35.56] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[ERROR : 13:56:35.58] : Build failed. Exit code: 2 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 13:57:42.32] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 13:57:42.35] : Cleaning target directory... 
+[INFO : 13:57:42.36] : Cleaning intermediates directory... 
+[INFO : 13:57:42.37] : Compiling : cl /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\chrono(2326): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 13:57:46.93] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 13:57:46.96] : Build succeeded. Exit code: 0 
+ -----------------------------------------  

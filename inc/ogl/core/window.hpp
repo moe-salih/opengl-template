@@ -13,8 +13,8 @@
 
 #ifdef _WIN32
     #define GLFW_EXPOSE_NATIVE_WIN32
-    #include <dwmapi.h>
     #include <GLFW/glfw3native.h>
+    #include <dwmapi.h>
 #endif
 
 

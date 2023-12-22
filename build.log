@@ -110,3 +110,790 @@ LINK : warning LNK4044: unrecognized option '/link'; ignored
  ------------- BUILD FINISHED ------------  
 [INFO : 13:57:46.96] : Build succeeded. Exit code: 0 
  -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 14:00:15.78] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 14:00:15.81] : Cleaning target directory... 
+[INFO : 14:00:15.82] : Cleaning intermediates directory... 
+[INFO : 14:00:15.83] : Compiling : cl /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\chrono(2326): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\utils\vertex_buffer_layout.hpp(37): error C3861: 'statc_assert': identifier not found
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\utils\vertex_buffer_layout.hpp(37): note: 'statc_assert': function declaration must be available as none of the arguments depend on a template parameter
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\utils\vertex_buffer_layout.hpp(36): note: This diagnostic occurred in the compiler generated function 'void ogl::vertex_buffer_layout::push(unsigned int)'
+----------------------------------------- 
+[INFO : 14:00:18.54] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[ERROR : 14:00:18.57] : Build failed. Exit code: 2 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 14:02:30.67] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 14:02:30.70] : Cleaning target directory... 
+[INFO : 14:02:30.73] : Cleaning intermediates directory... 
+[INFO : 14:02:30.74] : Compiling : cl /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\chrono(2326): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\utils\vertex_buffer_layout.hpp(35): error C2607: static assertion failed
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\utils\vertex_buffer_layout.hpp(34): note: This diagnostic occurred in the compiler generated function 'void ogl::vertex_buffer_layout::push(unsigned int)'
+----------------------------------------- 
+[INFO : 14:02:32.87] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[ERROR : 14:02:32.91] : Build failed. Exit code: 2 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 15:34:58.32] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 15:34:58.34] : Cleaning target directory... 
+[INFO : 15:34:58.36] : Cleaning intermediates directory... 
+[INFO : 15:34:58.37] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\utils\vertex_buffer_layout.hpp(35): error C2607: static assertion failed
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\utils\vertex_buffer_layout.hpp(34): note: This diagnostic occurred in the compiler generated function 'void ogl::vertex_buffer_layout::push(unsigned int)'
+----------------------------------------- 
+[INFO : 15:35:00.54] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[ERROR : 15:35:00.58] : Build failed. Exit code: 2 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 15:35:34.57] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 15:35:34.61] : Cleaning target directory... 
+[INFO : 15:35:34.63] : Cleaning intermediates directory... 
+[INFO : 15:35:34.65] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 15:35:39.61] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 15:35:39.62] : Build succeeded. Exit code: 0 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 17:54:38.97] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 17:54:38.99] : Cleaning target directory... 
+[INFO : 17:54:39.02] : Cleaning intermediates directory... 
+[INFO : 17:54:39.03] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(43): error C2065: 'application': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(43): error C2065: 'app': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(43): error C2653: 'application': is not a class or namespace name
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(43): error C3861: 'instance': identifier not found
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(44): error C2065: 'app': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(64): error C2065: 'application': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(64): error C2065: 'app': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(64): error C2653: 'application': is not a class or namespace name
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(64): error C3861: 'instance': identifier not found
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(65): error C2065: 'app': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(65): error C2065: 'app': undeclared identifier
+----------------------------------------- 
+[INFO : 17:54:41.55] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[ERROR : 17:54:41.61] : Build failed. Exit code: 2 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 17:55:08.33] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 17:55:08.35] : Cleaning target directory... 
+[INFO : 17:55:08.37] : Cleaning intermediates directory... 
+[INFO : 17:55:08.39] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(45): error C2027: use of undefined type 'ogl::application'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(19): note: see declaration of 'ogl::application'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(45): error C3861: 'instance': identifier not found
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(46): error C2027: use of undefined type 'ogl::application'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(19): note: see declaration of 'ogl::application'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(66): error C2027: use of undefined type 'ogl::application'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(19): note: see declaration of 'ogl::application'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(66): error C3861: 'instance': identifier not found
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(67): error C2027: use of undefined type 'ogl::application'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(19): note: see declaration of 'ogl::application'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(67): error C2027: use of undefined type 'ogl::application'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(19): note: see declaration of 'ogl::application'
+----------------------------------------- 
+[INFO : 17:55:10.63] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[ERROR : 17:55:10.66] : Build failed. Exit code: 2 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 17:55:25.76] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 17:55:25.78] : Cleaning target directory... 
+[INFO : 17:55:25.79] : Cleaning intermediates directory... 
+[INFO : 17:55:25.80] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(46): error C2065: 'application': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(46): error C2065: 'app': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(46): error C2653: 'application': is not a class or namespace name
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(46): error C3861: 'instance': identifier not found
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(47): error C2065: 'app': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(67): error C2065: 'application': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(67): error C2065: 'app': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(67): error C2653: 'application': is not a class or namespace name
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(67): error C3861: 'instance': identifier not found
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(68): error C2065: 'app': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(68): error C2065: 'app': undeclared identifier
+----------------------------------------- 
+[INFO : 17:55:28.09] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[ERROR : 17:55:28.11] : Build failed. Exit code: 2 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 17:55:49.36] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 17:55:49.39] : Cleaning target directory... 
+[INFO : 17:55:49.41] : Cleaning intermediates directory... 
+[INFO : 17:55:49.42] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(44): error C2065: 'application': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(44): error C2065: 'app': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(44): error C2653: 'application': is not a class or namespace name
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(44): error C3861: 'instance': identifier not found
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(45): error C2065: 'app': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(65): error C2065: 'application': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(65): error C2065: 'app': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(65): error C2653: 'application': is not a class or namespace name
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(65): error C3861: 'instance': identifier not found
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(66): error C2065: 'app': undeclared identifier
+D:\Users\moe\.source\cpp-workspace\opengl-template\inc\ogl\core\../imgui/imgui-layer.hpp(66): error C2065: 'app': undeclared identifier
+----------------------------------------- 
+[INFO : 17:55:51.75] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[ERROR : 17:55:51.78] : Build failed. Exit code: 2 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 18:29:53.23] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 18:29:53.26] : Cleaning target directory... 
+[INFO : 18:29:53.27] : Cleaning intermediates directory... 
+[INFO : 18:29:53.28] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 18:29:57.88] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 18:29:57.90] : Build succeeded. Exit code: 0 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 20:58:48.93] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 20:58:48.95] : Cleaning target directory... 
+[INFO : 20:58:48.96] : Cleaning intermediates directory... 
+[INFO : 20:58:49.01] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+imgui-layer.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Generating Code...
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\imgui-layer.obj 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+main.obj : error LNK2005: "private: static struct ogl::application * ogl::application::s_instance" (?s_instance@application@ogl@@0PEAU12@EA) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static struct ogl::basic_window * __cdecl ogl::basic_window::create(struct ogl::basic_window_props const &)" (?create@basic_window@ogl@@SAPEAU12@AEBUbasic_window_props@2@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static void __cdecl ogl::log::init(void)" (?init@log@ogl@@SAXXZ) already defined in imgui-layer.obj
+main.obj : error LNK2005: "void __cdecl ogl::set_debug_log_level(enum ogl::debug_log_level)" (?set_debug_log_level@ogl@@YAXW4debug_log_level@1@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "void __cdecl ogl::ogl_debug_callback(unsigned int,unsigned int,unsigned int,unsigned int,int,char const *,void const *)" (?ogl_debug_callback@ogl@@YAXIIIIHPEBDPEBX@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "void __cdecl ogl::enable_debuging(void)" (?enable_debuging@ogl@@YAXXZ) already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_load_from_memory already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_load_from_callbacks already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_load already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_load_from_file already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_load_gif_from_memory already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_load_16_from_memory already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_load_16_from_callbacks already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_load_16 already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_load_from_file_16 already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_loadf_from_memory already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_loadf_from_callbacks already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_loadf already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_loadf_from_file already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_hdr_to_ldr_gamma already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_hdr_to_ldr_scale already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_ldr_to_hdr_gamma already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_ldr_to_hdr_scale already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_is_hdr_from_callbacks already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_is_hdr_from_memory already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_is_hdr already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_is_hdr_from_file already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_failure_reason already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_image_free already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_info_from_memory already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_info_from_callbacks already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_is_16_bit_from_memory already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_is_16_bit_from_callbacks already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_info already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_info_from_file already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_is_16_bit already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_is_16_bit_from_file already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_set_unpremultiply_on_load already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_convert_iphone_png_to_rgb already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_set_flip_vertically_on_load already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_set_unpremultiply_on_load_thread already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_convert_iphone_png_to_rgb_thread already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_set_flip_vertically_on_load_thread already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_zlib_decode_malloc_guesssize already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_zlib_decode_malloc_guesssize_headerflag already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_zlib_decode_malloc already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_zlib_decode_buffer already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_zlib_decode_noheader_malloc already defined in imgui-layer.obj
+main.obj : error LNK2005: stbi_zlib_decode_noheader_buffer already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static void __cdecl ogl::callbacks::window_resize_callback(struct GLFWwindow *,int,int)" (?window_resize_callback@callbacks@ogl@@SAXPEAUGLFWwindow@@HH@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static void __cdecl ogl::callbacks::window_close_callback(struct GLFWwindow *)" (?window_close_callback@callbacks@ogl@@SAXPEAUGLFWwindow@@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static void __cdecl ogl::callbacks::window_focus_callback(struct GLFWwindow *,int)" (?window_focus_callback@callbacks@ogl@@SAXPEAUGLFWwindow@@H@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static void __cdecl ogl::callbacks::window_pos_callback(struct GLFWwindow *,int,int)" (?window_pos_callback@callbacks@ogl@@SAXPEAUGLFWwindow@@HH@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static void __cdecl ogl::callbacks::mouse_button_callback(struct GLFWwindow *,int,int,int)" (?mouse_button_callback@callbacks@ogl@@SAXPEAUGLFWwindow@@HHH@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static void __cdecl ogl::callbacks::cursor_pos_callback(struct GLFWwindow *,double,double)" (?cursor_pos_callback@callbacks@ogl@@SAXPEAUGLFWwindow@@NN@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static void __cdecl ogl::callbacks::scroll_callback(struct GLFWwindow *,double,double)" (?scroll_callback@callbacks@ogl@@SAXPEAUGLFWwindow@@NN@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static void __cdecl ogl::callbacks::key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@callbacks@ogl@@SAXPEAUGLFWwindow@@HHHH@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static void __cdecl ogl::callbacks::char_callback(struct GLFWwindow *,unsigned int)" (?char_callback@callbacks@ogl@@SAXPEAUGLFWwindow@@I@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static void __cdecl ogl::callbacks::glfw_error_callback(int,char const *)" (?glfw_error_callback@callbacks@ogl@@SAXHPEBD@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: __cdecl ogl::window::window(struct ogl::basic_window_props const &)" (??0window@ogl@@QEAA@AEBUbasic_window_props@1@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: virtual __cdecl ogl::window::~window(void)" (??1window@ogl@@UEAA@XZ) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: virtual void __cdecl ogl::window::on_update(float const &)" (?on_update@window@ogl@@UEAAXAEBM@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: virtual void __cdecl ogl::window::set_vsync(bool)" (?set_vsync@window@ogl@@UEAAX_N@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: virtual void __cdecl ogl::window::set_icon(char const *)" (?set_icon@window@ogl@@UEAAXPEBD@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "private: virtual void __cdecl ogl::window::init(struct ogl::basic_window_props const &)" (?init@window@ogl@@EEAAXAEBUbasic_window_props@2@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "private: virtual void __cdecl ogl::window::shutdown(void)" (?shutdown@window@ogl@@EEAAXXZ) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: __cdecl ogl::layer_stack::~layer_stack(void)" (??1layer_stack@ogl@@QEAA@XZ) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: void __cdecl ogl::layer_stack::push_layer(struct ogl::layer *)" (?push_layer@layer_stack@ogl@@QEAAXPEAUlayer@2@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: void __cdecl ogl::layer_stack::push_overlay(struct ogl::layer *)" (?push_overlay@layer_stack@ogl@@QEAAXPEAUlayer@2@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: void __cdecl ogl::layer_stack::pop_layer(struct ogl::layer *)" (?pop_layer@layer_stack@ogl@@QEAAXPEAUlayer@2@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: void __cdecl ogl::layer_stack::pop_overlay(struct ogl::layer *)" (?pop_overlay@layer_stack@ogl@@QEAAXPEAUlayer@2@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: __cdecl ogl::application::application(char const *,struct ogl::vec<unsigned int,2> const &)" (??0application@ogl@@QEAA@PEBDAEBU?$vec@I$01@1@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: void __cdecl ogl::application::run(void)" (?run@application@ogl@@QEAAXXZ) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: void __cdecl ogl::application::on_event(struct ogl::event &)" (?on_event@application@ogl@@QEAAXAEAUevent@2@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: void __cdecl ogl::application::push_layer(struct ogl::layer *)" (?push_layer@application@ogl@@QEAAXPEAUlayer@2@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: void __cdecl ogl::application::push_overlay(struct ogl::layer *)" (?push_overlay@application@ogl@@QEAAXPEAUlayer@2@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "private: bool __cdecl ogl::application::on_window_close(struct ogl::window_close_event &)" (?on_window_close@application@ogl@@AEAA_NAEAUwindow_close_event@2@@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: __cdecl ogl::shader::~shader(void)" (??1shader@ogl@@QEAA@XZ) already defined in imgui-layer.obj
+main.obj : error LNK2005: "public: static struct ogl::shader * __cdecl ogl::shader::from_glsl_file(char const *,char const *)" (?from_glsl_file@shader@ogl@@SAPEAU12@PEBD0@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "private: void __cdecl ogl::shader::load_from_glsl_file(char const *,char const *)" (?load_from_glsl_file@shader@ogl@@AEAAXPEBD0@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "private: unsigned int __cdecl ogl::shader::compile_shader(unsigned int,char const *)" (?compile_shader@shader@ogl@@AEAAIIPEBD@Z) already defined in imgui-layer.obj
+main.obj : error LNK2005: "private: static class std::shared_ptr<class spdlog::logger> ogl::log::s_logger" (?s_logger@log@ogl@@0V?$shared_ptr@Vlogger@spdlog@@@std@@A) already defined in imgui-layer.obj
+main.obj : error LNK2005: "struct ogl::window_data ogl::m_data" (?m_data@ogl@@3Uwindow_data@1@A) already defined in imgui-layer.obj
+target\\opengl-template.exe : fatal error LNK1169: one or more multiply defined symbols found
+----------------------------------------- 
+[INFO : 20:58:57.75] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[ERROR : 20:58:57.77] : Build failed. Exit code: 2 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 20:59:56.02] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 20:59:56.05] : Cleaning target directory... 
+[INFO : 20:59:56.06] : Cleaning intermediates directory... 
+[INFO : 20:59:56.09] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 21:00:00.71] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 21:00:00.74] : Build succeeded. Exit code: 0 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 21:08:12.26] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 21:08:12.28] : Cleaning target directory... 
+[INFO : 21:08:12.29] : Cleaning intermediates directory... 
+[INFO : 21:08:12.30] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 21:08:17.01] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 21:08:17.03] : Build succeeded. Exit code: 0 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 21:11:41.63] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 21:11:41.67] : Cleaning target directory... 
+[INFO : 21:11:41.68] : Cleaning intermediates directory... 
+[INFO : 21:11:41.71] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 21:11:47.12] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 21:11:47.15] : Build succeeded. Exit code: 0 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 21:12:58.69] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 21:12:58.72] : Cleaning target directory... 
+[INFO : 21:12:58.73] : Cleaning intermediates directory... 
+[INFO : 21:12:58.75] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 21:13:03.19] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 21:13:03.21] : Build succeeded. Exit code: 0 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 21:18:43.69] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 21:18:43.71] : Cleaning target directory... 
+[INFO : 21:18:43.72] : Cleaning intermediates directory... 
+[INFO : 21:18:43.74] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 21:18:50.75] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 21:18:50.77] : Build succeeded. Exit code: 0 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 21:21:04.60] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 21:21:04.62] : Cleaning target directory... 
+[INFO : 21:21:04.64] : Cleaning intermediates directory... 
+[INFO : 21:21:04.66] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 21:21:11.11] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 21:21:11.14] : Build succeeded. Exit code: 0 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 21:22:47.23] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 21:22:47.25] : Cleaning target directory... 
+[INFO : 21:22:47.26] : Cleaning intermediates directory... 
+[INFO : 21:22:47.28] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 21:22:53.36] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 21:22:53.38] : Build succeeded. Exit code: 0 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 21:31:25.34] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 21:31:25.36] : Cleaning target directory... 
+[INFO : 21:31:25.37] : Cleaning intermediates directory... 
+[INFO : 21:31:25.39] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 21:31:29.86] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 21:31:29.89] : Build succeeded. Exit code: 0 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 21:32:28.92] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 21:32:28.94] : Cleaning target directory... 
+[INFO : 21:32:28.95] : Cleaning intermediates directory... 
+[INFO : 21:32:28.97] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 21:32:33.58] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 21:32:33.60] : Build succeeded. Exit code: 0 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 21:33:24.10] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 21:33:24.13] : Cleaning target directory... 
+[INFO : 21:33:24.14] : Cleaning intermediates directory... 
+[INFO : 21:33:24.15] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 21:33:28.60] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 21:33:28.62] : Build succeeded. Exit code: 0 
+ -----------------------------------------  
+ ------------- BUILD ATEMPT --------------  
+[INFO : 21:36:50.27] : Project Name: opengl-template 
+ -----------------------------------------  
+[INFO : 21:36:50.30] : Cleaning target directory... 
+[INFO : 21:36:50.31] : Cleaning intermediates directory... 
+[INFO : 21:36:50.33] : Compiling : cl /EHsc /std:c++20 /MT ./src/*.c* /Fo:target\intermediate\ /Fd:target\intermediate\ /Fe:target\\opengl-template.exe /I"./inc" /I"./inc/vendor" /link /link /LIBPATH:./lib glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib 
+------------- COMPILATION --------------- 
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+main.cpp
+C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+./inc/vendor\glad/glad.h(32): note: see previous definition of 'APIENTRY'
+Microsoft (R) Incremental Linker Version 14.38.33130.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:target\\opengl-template.exe 
+/link 
+/LIBPATH:./lib 
+glfw3_mt.lib 
+glad.lib 
+user32.lib 
+shell32.lib 
+kernel32.lib 
+gdi32.lib 
+dwmapi.lib 
+opengl32.lib 
+fmt.lib 
+imgui.lib 
+imgui_impl.lib 
+target\intermediate\main.obj 
+LINK : warning LNK4044: unrecognized option '/link'; ignored
+----------------------------------------- 
+[INFO : 21:36:54.82] : Compilation done. 
+ ------------- BUILD FINISHED ------------  
+[INFO : 21:36:54.84] : Build succeeded. Exit code: 0 
+ -----------------------------------------  

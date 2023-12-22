@@ -3,6 +3,7 @@
 #define OGL_HPP
 
 #include "core/application.hpp"
+#include "core/imgui-layer.hpp"
 
 #include "utils/ogl_debug.hpp"
 #include "utils/shader.hpp"

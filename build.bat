@@ -19,9 +19,9 @@ set _3RD_PARTY_INC="./inc/vendor"
 set "INCLUDS=/I%_MAIN_INC% /I%_3RD_PARTY_INC%"
 
 set "LIB_DIR=./lib"
-set "LIBS=glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib"
+set "LIBS=glfw3_mt.lib glad.lib user32.lib shell32.lib kernel32.lib gdi32.lib dwmapi.lib opengl32.lib fmt.lib imgui.lib imgui_impl.lib"
 
-set "CFLAGS=/std:c++20 /MT"
+set "CFLAGS=/EHsc /std:c++20 /MT"
 set "LDFLAGS=/link /LIBPATH:%LIB_DIR% %LIBS%"
 
 set "TARGET=target\"

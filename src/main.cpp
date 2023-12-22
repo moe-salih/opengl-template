@@ -1,6 +1,7 @@
 
 #include "main.hpp"
 
+
 struct layer : ogl::layer {
     public:
         layer( const ogl::vec2u& size) : ogl::layer("Example"), m_resolution(size){}
@@ -102,10 +103,35 @@ struct layer : ogl::layer {
         float time = 0.0f;
 };
 
+struct gui_layer : public ogl::imgui_layer {
+    void on_update(const float& dt) override {
+        m_time += dt;
+        begin();
+        if (show_demo) ImGui::ShowDemoWindow(&show_demo);
+        if (show_about) ImGui::ShowAboutWindow(&show_about);
+
+        ImGui::Begin("Settings");
+        ImGui::Checkbox("Demo Window", &show_demo);
+        // show about window check box
+        ImGui::Checkbox("About Window", &show_about);
+
+        ImGui::InputText("Name", m_name, 256);
+        ImGui::Text("Hello, %s", m_name);
+        ImGui::Text("Application average %.3f ms/frame (%.1f FPS)", 1000.0f / ImGui::GetIO().Framerate, ImGui::GetIO().Framerate);
+        ImGui::End();
+        end();
+    }
+    private:
+        bool show_demo = false;
+        bool show_about = false;
+        char m_name[256] = "Hello World!";
+};
+
 struct app : public ogl::application {
     app( const char* title="GLSL", const ogl::vec2u& size={512, 512}) : ogl::application(title, size) {
         set_icon("res/icons/icon-64_x_64.png");
         push_layer(new layer( size ));
+        push_overlay(new gui_layer());
     }
 };
 

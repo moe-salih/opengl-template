@@ -3,9 +3,9 @@
 #define VERTEX_BUFFER_LAYOUT_HPP
 
 #include <vector>
-#include <cassert>
-
 #include "shader.hpp"
+
+#include <cassert>
 
 namespace ogl {
 

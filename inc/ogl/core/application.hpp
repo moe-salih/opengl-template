@@ -25,7 +25,6 @@ namespace ogl {
             void push_layer(layer* layer);
             void push_overlay(layer* overlay);
 
-
             inline basic_window& get_window() { return *m_window; }
             inline static application& instance() { return *s_instance; }
         private:
@@ -35,7 +34,6 @@ namespace ogl {
             std::unique_ptr<basic_window> m_window;
             layer_stack m_layer_stack;
             bool m_running = true;
-
             float m_last_frame_time = 0.0f;
             static application* s_instance;
     };
@@ -56,8 +54,8 @@ namespace ogl {
 
         m_window = std::unique_ptr<basic_window>(basic_window::create({title, size}));
         m_window->set_event_callback(BIND_EVENT_FN(application::on_event));
+    
     }    
-
 
     void application::push_layer(layer* lyr) {
         m_layer_stack.push_layer(lyr);
